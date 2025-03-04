@@ -2,7 +2,7 @@
  * This file contains the configuration used for customising the website, such as the folder to share,
  * the title, used Google fonts, site icons, contact info, etc.
  */
-module.exports = {
+module。exports = {
   // This is what we use to identify who you are when you are initialising the website for the first time.
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your worker's environment variable if you worry about
@@ -14,10 +14,10 @@ module.exports = {
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: "lyc8503's OneDrive",
+  title: "无为网盘",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
-  baseDirectory: process.env.BASE_DIRECTORY || '/',
+  baseDirectory: process.env.BASE_DIRECTORY || '/Public',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -35,7 +35,7 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Powered by <a href="https://github.com/lyc8503/onedrive-cf-index-ng" target="_blank" rel="noopener noreferrer">onedrive-cf-index-ng</a>. Made with ❤ by lyc8503.',
+    'Powered by <a href="https://chjina.com/" target="_blank" rel="noopener noreferrer">chjina.com</a>..',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
